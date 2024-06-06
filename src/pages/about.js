@@ -55,11 +55,11 @@ const About = () => {
                 BIOGRAPHY
               </h2>
               <p className="font-medium">
-  Hey there! My name is Rahul, a Frontend Web Developer with expertise in MERN Development. I specialize in React, Next.js, NPM, Tailwind CSS, HTML, CSS, and JavaScript. My strong collaboration and problem-solving skills were developed through team projects, and I am highly motivated to apply my technical skills to new and exciting projects.
+  Hey there! My name is Rahul, a Frontend Web Developer with expertise in Frontend Development. I specialize in React, Next.js, NPM, Tailwind CSS, HTML, CSS, and JavaScript. My strong collaboration and problem-solving skills were developed through team projects, and I am highly motivated to apply my technical skills to new and exciting projects.
 </p>
 
 <p className="font-medium my-4">
-  I am currently a Biotechnology Engineering student at NIT Rourkela, diving deep into the world of web development. With a focus on ReactJS, NextJS, and TailwindCSS, I love bringing ideas to life through sleek and functional websites. Beyond coding, you'll find me actively contributing to open source projects and soaking up knowledge from the tech community.
+  I am currently a Biotechnology Engineering student at NIT Rourkela, diving deep into the world of web development. With a focus on ReactJS, NextJS, and TailwindCSS, I love bringing ideas to life through sleek and functional websites. Beyond coding, you will find me actively contributing to open source projects and soaking up knowledge from the tech community.
 </p>
 
 <p className="font-medium">
