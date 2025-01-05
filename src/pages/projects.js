@@ -5,12 +5,11 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import adminFlowImg from "../../public/images/projects/AdminFlow.png";
-import eduQuestImg from "../../public/images/projects/EduQuest.png";
+import dishcoveryImg from "../../public/images/projects/Dishcovery.png";
 import filmSphereImg from "../../public/images/projects/FilmSphere.png";
+import moodloomImg from "../../public/images/projects/moodloom.png";
 import gitHuntImg from "../../public/images/projects/GitHunt.png";
 import Transitions from "@/Components/Transitions";
-
 
 const FeatureProject = ({ type, title, summary, img, github, link }) => {
   return (
@@ -154,21 +153,21 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type={"PROJECT"}
-                title={"EduQuest"}
-                link="https://eduquest-theta.vercel.app/"
-                github={"https://github.com/rajanarahul93/EduQuest"}
-                img={eduQuestImg}
-                summary="• EduQuest is a user-friendly web platform offering information on competitive exams. Users can explore recommended and popular exams, access detailed information, and navigate seamlessly. Built with React, Tailwind CSS, and React Router, it ensures a smooth browsing experience."
+                title={"MoodLoom"}
+                link="https://moodloom-iota.vercel.app/"
+                github={"https://github.com/rajanarahul93/moodloom"}
+                img={moodloomImg}
+                summary="• MoodLoom is a mood-tracking app built with Next.js, Firebase, and TailwindCSS. It enables users to log daily moods, view trends with interactive charts, and sync data in real-time. With secure authentication and responsive design, it offers a seamless and intuitive user experience."
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type={"PROJECT"}
-                title={"AdminFlow"}
-                link="https://admin-flow-gold.vercel.app/"
-                github={"https://github.com/rajanarahul93/AdminFlow"}
-                img={adminFlowImg}
-                summary="• Admin Flow is a React-based dashboard project featuring components for data visualization, user interactions, and more. It offers various components like Button, Cart, Chat, and more, organized within a clear folder structure. With support for light/dark themes and easy customization via ThemeSettings"
+                title={"DishCovery"}
+                link="https://dishcovery-rouge.vercel.app/"
+                github={"https://github.com/rajanarahul93/Dishcovery"}
+                img={dishcoveryImg}
+                summary="• Dishcovery is a web app that lets users search for recipes by name or ID using The Meal Database API. It displays detailed recipe information, including ingredients, instructions, and video tutorials. Built with React, it features smooth navigation via React Router and video playback with React Player."
               />
             </div>
           </div>
