@@ -6,9 +6,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import dishcoveryImg from "../../public/images/projects/Dishcovery.png";
-import filmSphereImg from "../../public/images/projects/FilmSphere.png";
-import moodloomImg from "../../public/images/projects/moodloom.png";
-import gitHuntImg from "../../public/images/projects/GitHunt.png";
+import trimrrImg from "../../public/images/projects/Trimrr.png";
+import fusionDexImg from "../../public/images/projects/FusionDex.png";
+import quickBuyImg from "../../public/images/projects/QuickBuy.png";
 import Transitions from "@/Components/Transitions";
 
 const FeatureProject = ({ type, title, summary, img, github, link }) => {
@@ -133,33 +133,36 @@ const projects = () => {
             <div className="col-span-12">
               <FeatureProject
                 type={"FEATURE PROJECT"}
-                title={"GitHunt"}
-                link="https://githunt-liard.vercel.app/"
-                github={"https://github.com/rajanarahul93/githunt"}
-                img={gitHuntImg}
-                summary="• GitHunt is a React web app displaying GitHub user data, including avatars, usernames, followers, repositories, and activity. It employs React Router, useEffect(), and custom hooks for responsiveness and utilizes the GitHub API for data retrieval"
+                title={"QuickBuy"}
+                link="https://quick-buy-frontend.vercel.app/"
+                github={"https://github.com/rajanarahul93/QuickBuy"}
+                img={quickBuyImg}
+                summary="QuickBuy is a full-stack e-commerce application built with the MERN stack. It supports product browsing, cart management, order placement, admin product uploads, and secure payments using Stripe. Features include JWT authentication, Cloudinary image uploads, and a powerful admin dashboard for managing products and orders."
               />
             </div>
+
             <div className="col-span-12">
               <FeatureProject
                 type={"FEATURE PROJECT"}
-                title={"FilmSphere"}
-                link="https://film-sphere-rho.vercel.app/"
-                github={"https://github.com/rajanarahul93/FilmSphere"}
-                img={filmSphereImg}
-                summary="FilmSphere is a React-based platform offering an immersive movie exploration experience. Users can browse popular, top-rated, and upcoming films, access detailed movie information, and seamlessly navigate to external sources. Powered by React technologies and the IMDb API, FilmSphere ensures a user-friendly and interactive movie discovery journey."
+                title={"Trimrr"}
+                link="https://trimrr-amber.vercel.app/"
+                github={"https://github.com/rajanarahul93/trimrr"}
+                img={trimrrImg}
+                summary="Trimrr is a full-stack modern URL shortener with real-time click analytics. Built with React (Vite), Supabase, and Tailwind CSS, it supports custom links, QR code generation, device/location tracking, and a secure dashboard with visualized stats via Recharts."
               />
             </div>
+
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type={"PROJECT"}
-                title={"MoodLoom"}
-                link="https://moodloom-iota.vercel.app/"
-                github={"https://github.com/rajanarahul93/moodloom"}
-                img={moodloomImg}
-                summary="• MoodLoom is a mood-tracking app built with Next.js, Firebase, and TailwindCSS. It enables users to log daily moods, view trends with interactive charts, and sync data in real-time. With secure authentication and responsive design, it offers a seamless and intuitive user experience."
+                title={"FusionDex"}
+                link="https://fusion-dex-alpha.vercel.app/"
+                github={"https://github.com/rajanarahul93/FusionDex"}
+                img={fusionDexImg} // Make sure to import this image correctly
+                summary="FusionDex is an interactive Pokémon fusion and battle simulation app built with React, Tailwind CSS, Framer Motion, and PokéAPI. Users can explore, fuse Pokémon, simulate battles, and visualize stats with a responsive and animated UI."
               />
             </div>
+
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type={"PROJECT"}
